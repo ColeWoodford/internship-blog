@@ -1,14 +1,13 @@
 {
-  "main.css": "/internship-blog/static/css/main.882e0b49.chunk.css",
-  "main.js": "/internship-blog/static/js/main.0a758d32.chunk.js",
-  "main.js.map": "/internship-blog/static/js/main.0a758d32.chunk.js.map",
-  "static/js/1.fa92c112.chunk.js": "/internship-blog/static/js/1.fa92c112.chunk.js",
-  "static/js/1.fa92c112.chunk.js.map": "/internship-blog/static/js/1.fa92c112.chunk.js.map",
+  "main.css": "/internship-blog/static/css/main.5c4ede3a.chunk.css",
+  "main.js": "/internship-blog/static/js/main.5346448d.chunk.js",
+  "main.js.map": "/internship-blog/static/js/main.5346448d.chunk.js.map",
+  "static/js/1.40629806.chunk.js": "/internship-blog/static/js/1.40629806.chunk.js",
+  "static/js/1.40629806.chunk.js.map": "/internship-blog/static/js/1.40629806.chunk.js.map",
   "runtime~main.js": "/internship-blog/static/js/runtime~main.425bad57.js",
   "runtime~main.js.map": "/internship-blog/static/js/runtime~main.425bad57.js.map",
-  "static/media/logo.svg": "/internship-blog/static/media/logo.5d5d9eef.svg",
-  "static/css/main.882e0b49.chunk.css.map": "/internship-blog/static/css/main.882e0b49.chunk.css.map",
+  "static/css/main.5c4ede3a.chunk.css.map": "/internship-blog/static/css/main.5c4ede3a.chunk.css.map",
   "index.html": "/internship-blog/index.html",
-  "precache-manifest.ecd9ed4806aceca314b33c00f4a2d855.js": "/internship-blog/precache-manifest.ecd9ed4806aceca314b33c00f4a2d855.js",
+  "precache-manifest.e394394ba26762659ba176b42c7252c1.js": "/internship-blog/precache-manifest.e394394ba26762659ba176b42c7252c1.js",
   "service-worker.js": "/internship-blog/service-worker.js"
 }
