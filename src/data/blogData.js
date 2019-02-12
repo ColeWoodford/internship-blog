@@ -58,5 +58,22 @@ export const data = [
     Once I had provided a good suite of test tools, I moved on to my new project. I attended some meetings with my new mentor, and got a little familiar with
     the project. I then began the process of setting up my development environment for the project. We are using Xampp to handle some of the server
     services and my PHP version seems too new to get the project working. I will need to downgrade my version of Xampp next week.`
+  },
+  {
+    title: "Week #5 2/4/2019",
+    content: `I began my week by finishing setup for my development project since switching to my new mentor. Downgrading Xampp was only the first
+    step to solving my issue for setting everything up. The project requires a lot of configuration to get everything going and so I needed quite a bit
+    of help from my mentor. Once everything was working I started to get familiar with the project.
+    
+    We all share a database so I need to be careful when making changes to our production site. My first task was to convert a table existing on the app with
+    a new table created with our custom tools. This required me digging through the code to find how the table was being populated, create a view in our
+    database that would provide the new table with all its information, building custom JS to handle button logic, and finally adding the new page to our
+    application's navigation.
+
+    The most difficult part of this task was creating the custom javascript to handle button logic. I created a new phtml script and linked it to our custom dataview.
+    The script gathered variables from the environment using php, created a tag to attach everything to in html, and then created a click listener using javascript.
+    When the button was clicked, a dialog opens showing information from the database formatted in a neat and consistent way. This was one of my first attempts at building
+    something using Jquery so I learned a lot.
+    `
   }
 ]
