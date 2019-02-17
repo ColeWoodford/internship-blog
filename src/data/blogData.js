@@ -75,5 +75,24 @@ export const data = [
     When the button was clicked, a dialog opens showing information from the database formatted in a neat and consistent way. This was one of my first attempts at building
     something using Jquery so I learned a lot.
     `
+  },
+  {
+    title: "Week #6 2/11/2019",
+    content: `This week we were hit with a lot of snow. I spent each day of work programming from home. The task of changing a table on our application
+    to use a custom data view was completed after much configuration. I hit a little bit of a block when a line of code was validating that the request
+    to get data for populating the data view was a POST, but my script was making a GET request. I tracked down a solution for this and changed the request
+    to a POST. However, this investigation also let to finding a strange behavior on the site. The config for a data view contains a checkbox for a custom
+    button to make a GET or POST request, but no matter how this was set up the request would always be GET. I spent a lot of time looking into this problem
+    and eventually came to the conclusion that our setup would always make a GET request if another checkbox was marked for the button to open a dialog box.
+    
+    This discovery has sparked a conversation about how the checkbox should work. We cannot think of a time where a dialog box should be populated with info
+    fetched using a POST. So changing the check for the dialog box being checked should stay the same. However, because this caused so much confusion we are thinking
+    of adding a required tag for the url field if the dialog box is entered, and some text showing that the request will be a GET. Perhaps disabling the POST/GET
+    checkbox when the dialog box is checked would also be a good idea.
+    
+    Through the process of changing the table over to a data view I documented everything. One piece that is still missing is instructions for creating
+    a view in our database. The view would be used if a complex query is made to construct the data view's columns. We need to pull the columns from a single
+    source so making a view could provide us with that. This task already had a sufficient view so there was no need to create a new one, but a future task
+    may need it, so it will be important to update the documentation at that time.`
   }
 ]
