@@ -94,5 +94,42 @@ export const data = [
     a view in our database. The view would be used if a complex query is made to construct the data view's columns. We need to pull the columns from a single
     source so making a view could provide us with that. This task already had a sufficient view so there was no need to create a new one, but a future task
     may need it, so it will be important to update the documentation at that time.`
+  },
+  {
+    title: "Week #7 2/18/2019",
+    content: `We began our week preparing for deployment. All the changes we had made were now on a test-able internal site. The testing team were running automated
+    testing scripts against the front-end while me and my mentor reacted to what was found. Immediately there were problems with the dataview table I had created. 
+    Buttons that should be opening a modal showing more information for a row in the table were doing nothing. I looked at the connection script but nothing seemed to be amiss.
+    Then, I checked the demo view of the table from the site. Here I was able to press the view button and have it work correctly. This led me to think the problem was
+    a permissions issue. However, before I could investigate further, our project manager told us to roll back other changes we had made. Further discussion was needed before
+    we used the table in other places on the site. Rolling back these changes and making some adjustments to the rendering of the table solved my first problem without having
+    to change any permissions.
+    
+    I also had a sit down with the project manager to discuss my role on the project. She asked if I had a preference of what kind of tasks I should be put on. They are
+    working to update the back-end of the application, but it sounded like there was enough developers working on it. I am also interested in improving my skills in PHP and
+    javascript. Once I spoke with my mentor a little about it, I sent my project manager an email saying I was interested in application development tasks involving PHP and 
+    javascript. She said she would do her best to assign work related to this. It was very nice to be given the opportunity to express my interest in areas of development for
+    myself.
+    
+    By the end of the week we had the test site ready and working. This meant that we were ready for deployment. Next week the code would be pushed to our production server and
+    the changes made in this last sprint will become available to the users. I wrapped up my final tasks by making everything work in our navigation settings.`
+  },
+  {
+    title: "Week #8 2/25/2019",
+    content: `Monday began with my mentor pushing all our changes to the production site. A new developer and I watched and took notes as the process was completed. We ran into one
+    issue involving a database update. Each change we make to the database must be recorded. A script needs to be made that will make the same changes on the production database. These
+    scripts must include a statement about what the version number is for the update. The problem we ran into is that one of these updates relyed on another. When working through the updates,
+    we did them out of order and so one of the updates failed. Confusion issued when someone also did not record an update number with their database changes. This made my mentor wrongly
+    assume that the problem we were having had to do with a missing script, and not just executing the scripts out of order. It took us a little investigating to discover the problem and 
+    correct it, but this was our only snag in the deployment process.
+    
+    Later in the week I worked on tasks to change the way a table is rendered on the site. By default a table would be sorted on a certain column. My task was to add a new column and
+    change the loading to sort by this by default instead. The task was fairly simple but it took me a while to complete. The project is complicated and navigating through some of the logic 
+    takes time. When I had this finished I went on to work investigating some other bugs.
+    
+    My week ended with a meeting with our project manager. We met to talk about my plans after graduation. I was excited to learn that I have a good chance at a job within my group after
+    I get my diploma. We talked about how to prepare for becoming a software engineer. I need to meet with some other project managers to discuss projects that would take me on. Currently,
+    I spend a lot of my extra time learning about react/redux, and I hope to be useful to projects that use this framework. When I meet with other project managers I will ask them what
+    technologies they would like me to focus on until graduation, and this should help solidify a path forward for me.`
   }
 ]
