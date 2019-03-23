@@ -164,5 +164,21 @@ export const data = [
     I also needed to complete some refresher training this week. I spent a good amount of time on Friday reading through the training module. I watched several videos that impressed
     upon me how commited PNNL is to safety. The managers being interviewed made it plain that they want workers to know that calling for a stop work will not get them in trouble.
     This is different than other places I have worked at in the past and makes me want to work for PNNL after graduation.`
+  },
+  {
+    title: "Week #11 3/18/2019",
+    content: `I began this week continuing work on the new data form required for our client. Limiting the custom code has been easy so far since the tool
+    is built for making data forms like this. There will still be need for custom code. One requirement is to build a drop-down of date values that a user can
+    select. These dates must be Fridays only and extend out from the current date by 90 days. To accomplish this, I am using some simple library functions to
+    find the dates needed and am then saving them into a table in our database. Once I have a script set up to perform this logic, I plan to make a task on our
+    server to run the script once a week and update the Friday values.
+    
+    I worked to get as much of the form done as I could. At the end of the week we had another meeting with the client to discuss more requirements and to show
+    what had been completed so far. We had an hour long meeting and during this, I demoed my work on the form. The client seemed impressed with the amount of work
+    I had completed. There was plenty of feedback to collect though. At several spots in the form I had configured the wrong values for dropdowns. This is easy to fix,
+    and I will get better at making these judgement calls when I become more familiar with the project.
+    
+    Next week I will repeat much of the same as this week. My mentor will return from a trip to the border, and he might help set me up with a new react-based project.
+    That would mean splitting my time with my current project, but would also allow me to work with some newer technologies.`
   }
 ]
