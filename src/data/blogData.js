@@ -180,5 +180,19 @@ export const data = [
     
     Next week I will repeat much of the same as this week. My mentor will return from a trip to the border, and he might help set me up with a new react-based project.
     That would mean splitting my time with my current project, but would also allow me to work with some newer technologies.`
+  },
+  {
+    title: "Week #12 3/25/2019",
+    content: `This week our group is meeting for three days to have a sandbox meeting. Each day we have speakers present on projects that can be applied to many
+    areas and have discussions about what we are working on. In addition there are tech demos to show off some helpful tools being built within the group. I was
+    asked to present with another intern on our work to build a testing library for React applications. I spent Monday finishing what I could for my current projects
+    then met with my friend Tycko (the other intern) to make our presentation. We chose to use PowerPoint because we had one day to prepare. This was a little bit of a mistake.
+    
+    Other developers critisized our use of PowerPoint, saying we should have coded our own markup for the presentation. I think this is something that would have distracted
+    from the presentation since we did not have a lot of time to prepare and practice. It led to a discussion that had little to do with our project and was a little frustrating.
+    
+    The talk went well overall and we got a lot of positive feedback. The practice was very important for us because we will be presenting our work again in June at a lab
+    wide event called TechFest. After the sandbox event was over I went back to work on my data form. I built out the latest requirements and began working on some extra
+    bits that the sponsor would like. I hope that I will have something nice built to show at our next meeting, as I believe this task will need to be completed soon.`
   }
 ]
