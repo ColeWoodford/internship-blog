@@ -194,5 +194,28 @@ export const data = [
     The talk went well overall and we got a lot of positive feedback. The practice was very important for us because we will be presenting our work again in June at a lab
     wide event called TechFest. After the sandbox event was over I went back to work on my data form. I built out the latest requirements and began working on some extra
     bits that the sponsor would like. I hope that I will have something nice built to show at our next meeting, as I believe this task will need to be completed soon.`
+  },
+  {
+    title: "Week #13 4/1/2019",
+    content: `I had been assigned to take a trip to Yuma AZ next week to do a physical inspection of a border customs port of entry. This week I spent
+    my time preparing everything for the trip. I met with the sponsors of my data forms project. We are working on adding an automatic email ingestion
+    feature that will build sections of the form if an email is caught sent to a particular address. While my mentor is working on the logic for the
+    ingestion tool, I worked on setting up a view for the form. This is something our sponsor cares a lot about and they will like to see this view the next
+    time we meet.
+    
+    I set up meetings for completing the rest of the form and continued working on new features to what is built. I wrote a script to collect Friday
+    values to be added to a drop-down in Javascript. However, I need to turn this into an SQL procedure. Much of my time was spent working on converting
+    the script. This was a difficult challenge for me as it is the first procedure I have written in SQL. I was able to complete the script but am not happy
+    with how it is implemented. I want to take advantage of while loops and clean up the code. This will have to wait until I return from the border.`
+  },
+  {
+    title: "Week #14 4/8/2019",
+    content: `This week I spent my time in Yuma Arizona at a port of entry to do a physical evaluation of the site. Early Monday I flew out from Pasco to
+    Denver, then to Phoenix and finally Yuma. This first day was just spent traveling. The next day another software developer and I drove to the border port
+    to meet with the chief officer and sector director. We spent the day asking questions about how spaces are used, taking measurements and pictures. This
+    first day was spent indoors to try and escape the heat. The next day we handled the spaces outdoors. Everything went very smoothly and although we were
+    scheduled to spend three days working, we completed our task in two. At the end of this second day we got in touch with our admins and requested plane tickets
+    that would get us home a day early. We were able to get the tickets but we would need to drive to Pheonix to reach our flight in the morning. On Thursday we
+    drove to Pheonix, caught our flight, and returned to Pasco. Friday I spent my day returning emails and working on my SQL procedure for my data form.`
   }
 ]
