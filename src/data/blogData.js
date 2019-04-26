@@ -217,5 +217,25 @@ export const data = [
     scheduled to spend three days working, we completed our task in two. At the end of this second day we got in touch with our admins and requested plane tickets
     that would get us home a day early. We were able to get the tickets but we would need to drive to Pheonix to reach our flight in the morning. On Thursday we
     drove to Pheonix, caught our flight, and returned to Pasco. Friday I spent my day returning emails and working on my SQL procedure for my data form.`
+  },
+  {
+    title: "Week #15 4/15/2019",
+    content: `After spending the week in Arizona I had plenty to catch up on at work. The data form being built had new requirements that needed my attention.
+    My mentor had recently finished a script that would automatically injest emails sent to an inbox and create a data form based on its contents. I worked with
+    him to make sure the format of the form contained everything needed to populate a section with the email. Mid-week I got together with the developer I traveled
+    to Arizona with and cleaned up the pictures taken before they were handed off for processing. It was important to remove duplicate photos or any that contained
+    a person's face. After this I worked on small tasks needed to continue the data form. I added totals to an existing table to make adding up tracked hours
+    easier. I also added a script to sort an internal data form based on a date value selected from a drop-down. My SQL script was complete but not put in a stored
+    procedure. Next week I will complete this task by creating the procedure.`
+  },
+  {
+    title: "Week #16 4/22/2019",
+    content: `At the beginning of the week my mentor and I presented what we had completed to our client requesting the data form. They were happy with our progress
+    and we began talking about how to move data stored in their old application to the new data form. I will be building scripts to populate data forms based on information
+    pulled from the old application data base. This task will be a major lift and will take a lot of my time. Luckily I will become full-time when I return from finals.
+    After these meetings I went back to working on my assigned tasks for the data form. I finished creating my SQL stored procedure. My mentor will take it and add a job
+    on our production site to run the script once a week. My changes from last week were now being tested and needed configuration to work properly on our test site. Next week
+    I will be taking finals and will not be at work. I left notes in case my configuration needed to be completed on the production site. When I return it will be a priority
+    to hit the migration scripts hard to produce them in a timely manner.`
   }
 ]
